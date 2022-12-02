@@ -1,0 +1,84 @@
+/* Add your styles here */
+
+.box {
+    border: 1px solid black;
+    padding: 12px;
+    margin-top: 16px;
+    max-width: 400px;
+    box-shadow: 15px 15px 15px #ccc;
+    background-color: #fdfbbb;
+    text-align: center;
+    background-size: cover;
+    color: black;
+}
+
+
+
+.adjacent-siblings {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 50;
+    background-image: url(https://img.freepik.com/premium-vector/splash-hand-drawn-flowers-watercolor-background_108834-450.jpg?w=200);
+}
+
+.general-siblings {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-size: 100;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/05/13/54/9759a019f9b8608.jpg);
+}
+
+.child {
+    font-family: Monospace;
+    font-size: large;
+    background-image: url(https://t4.ftcdn.net/jpg/04/30/41/65/360_F_430416543_wzb1NymElSeD4JzXNocUCbBCfFvefgZR.jpg);
+}
+
+.descendant {
+    font-family: Serif;
+    background-image: url(https://thumbs.dreamstime.com/z/blossom-pink-flower-floral-background-28757246.jpg);
+}
+h1 {
+    text-decoration: underline;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Adjacent siblings- it selects only the element that immediately follows an element*/
+/* here it selects all p tags that are very next to h2 tags, and tells whether its adjacent or not*/
+h2+p {
+    color: rgb(197, 0, 0);
+    display: inline-block;
+    background-color: rgb(239, 254, 100);
+}
+
+
+/* General Siblings -it selects any element that follows an element which are under same parent.*/
+/* here it selects all p tags under box div which is parent of h4 tags, and tells whether its general or not*/
+h4~p {
+    color: rgb(238, 246, 241);
+    display: inline-block;
+    background-color: rgb(130, 235, 219);
+}
+
+
+/* child combinator- it selects elements that are the direct child of a specified element */
+/* here it selects all direct children of the class named child */
+.child>p {
+    text-align: center;
+    color: black;
+    display: inline-block;
+    background-color: rgb(202, 165, 185);
+}
+
+
+/* decendant combinator- it selects all descendants of an specified element whether its child, nested child, etc within the specified element */
+/* here its selects all the p tags under the class descendant */
+.descendant p {
+    display: inline-block;
+    color: blue;
+    background-color: rgb(223, 240, 75);
+}
