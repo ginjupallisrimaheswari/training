@@ -1,0 +1,58 @@
+.main {
+    color: brown;
+    background-image: url(https://t3.ftcdn.net/jpg/04/07/79/50/360_F_407795020_uoVzWmm4EHoaOmQhVlheixEfTnbF0xwk.jpg);
+    background-size: cover;
+    font-weight: 10px;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Researchpaper{
+    border: 3px dashed black;
+    padding: 12px;
+    margin-top: 16px;
+    max-width: 400px;
+    box-shadow: 15px 15px 15px #ccc;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+color: deeppink;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hotpink;
+
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;  
+    font-style: italic;
+    color: magenta;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para1{
+    font-variant: normal;
+    color: violet;
+
+}
+
+.para2{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: mediumvioletred;
+}
+
+.para3{
+    font-style: italic;
+    color: rgb(24, 1, 19);
+}
+
+.para4{
+     color: red;
+}
